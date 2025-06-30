@@ -1,0 +1,267 @@
+<title>Saran's Restaurant</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+
+
+
+  <nav class="navbar">
+    <div class="navbar-container container">
+
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#order-section">Order Now</a></li>
+            <li><a href="#food">Category</a></li>
+            <li><a href="#food-menu">Menu</a></li>
+            <li><a href="#testimonials">Testimonial</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h2class="logo">The Shawarma Samosa House</h2>
+    </div>
+    
+</nav>
+  <!-- Fullscreen Home Section -->
+<section class="home-banner" id="home">
+  <div class="home-content">
+    <h1 class="home-heading">CRAVINGS FACTORY</h1>
+    <p class="home-subtext">Fuel your cravings</p>
+    <a href="#food-menu" class="home-btn">MENU</a>
+  </div>
+</section>
+
+
+   <!-- Order Now Section -->
+<section id="order-section" class="order-now-section">
+  <div class="order-now-container">
+    <h2 class="order-now-heading">Order Now</h2>
+    <p>Click the button below to add items to your cart.</p>
+    <a href="order.html" target="_blank" class="btn btn-primary">Go to Cart</a>
+  </div>
+</section>
+
+  <section id="food">
+    <h2>Types of food</h2>
+    <div class="food-container container">
+      <div class="food-type Shawarma">
+        <div class="img-container">
+          <img decoding="async" src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750923738/chicken-shawarma-pizzello-pizzello-com-chicken-recipes-shawarma_1000x_s0kpyz.webp" alt="error" />
+          <div class="img-content">
+            <h3>Shawarma</h3>
+            <a href="https://en.wikipedia.org/wiki/Shawarma" class="btn btn-primary" target="blank" rel="nofollow noopener">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="food-type Samosa">
+        <div class="img-container">
+          <img decoding="async" src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750921530/food4_uq8r2s.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Samosa</h3>
+            <a href="https://en.wikipedia.org/wiki/Samosa" class="btn btn-primary" target="blank" rel="nofollow noopener">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="food-type Coffee">
+        <div class="img-container">
+          <img decoding="async" src="https://res.cloudinary.com/dabxj1smb/image/upload/c_crop,w_600,h_340/v1750923467/Untitled-design7_huigsx.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Coffee</h3>
+            <a href="https://en.wikipedia.org/wiki/Coffee" class="btn btn-primary" target="blank" rel="nofollow noopener">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="food-menu">
+  <h2 class="food-menu-heading">Food Menu</h2>
+  <div class="food-menu-container container">
+
+    <!-- Chicken Samosa -->
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750926343/menu1_i7ynb0.jpg" alt="" />
+      </div>
+      <div class="food-description">
+        <div class="title-row">
+          <h2 class="food-titile">🥟 Chicken Samosa</h2>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+        <p>Crispy outside, spicy chicken surprise inside!</p>
+        <p class="food-price">Price: ₹30</p>
+      </div>
+    </div>
+
+    <!-- Frankies -->
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750926781/menu3_ooz5bu.jpg" alt="Frankies" />
+      </div>
+      <div class="food-description">
+        <div class="title-row">
+          <h2 class="food-titile">🌯 Frankie's</h2>
+          <button class="cart-btn" data-title="Frankie" data-price="₹60" data-desc="Roll into flavor with every bite!">Add to Cart</button>
+        </div>
+        <p>Roll into flavor with every bite!</p>
+        <p><span class="food-name">• Paneer Tikka Frankie</span> - ₹35</p>
+        <p><span class="food-name">• Chicken Schezwan Frankie</span> - ₹60</p>
+      </div>
+    </div>
+
+    <!-- Chicken Wings -->
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750926796/menu5_xo2r4b.jpg" alt="Chicken Wings" />
+      </div>
+      <div class="food-description">
+        <div class="title-row">
+          <h2 class="food-titile">🍖 Chicken Wings (8pcs)</h2>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+        <p>Wings that make your taste buds fly!</p>
+        <p><span class="food-name">• Peri Peri Wings</span> - ₹120</p>
+        <p><span class="food-name">• Smoked BBQ Wings</span> - ₹145</p>
+      </div>
+    </div>
+
+    <!-- Sandwich -->
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750926780/menu4_wri4zi.jpg" alt="Sandwich" />
+      </div>
+      <div class="food-description">
+        <div class="title-row">
+          <h2 class="food-titile">🥪 Sandwich</h2>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+        <p>Crispy outside, loaded inside!</p>
+        <p><span class="food-name">• Cheese Corn Sandwich</span> - ₹45</p>
+        <p><span class="food-name">• Peri Peri Chicken Sandwich</span> - ₹65</p>
+        <p><span class="food-name">• BBQ Paneer Sandwich</span> - ₹80</p>
+      </div>
+    </div>
+
+    <!-- Mocktails -->
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750926778/menu2_tpyd21.jpg" alt="Mocktail" />
+      </div>
+      <div class="food-description">
+        <div class="title-row">
+          <h2 class="food-titile">🍹 Mocktail</h2>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+        <p>Flavors that fizz without the fuzz!</p>
+        <p><span class="food-name">• Berry Pop</span> - ₹49</p>
+        <p><span class="food-name">• Lemon Zing</span> - ₹49</p>
+        <p><span class="food-name">• Virgin Mojito</span> - ₹49</p>
+      </div>
+    </div>
+
+    <!-- Grilled Chicken -->
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750927315/menu6_ka3ywx.jpg" alt="Grilled Chicken" />
+      </div>
+      <div class="food-description">
+        <div class="title-row">
+          <h2 class="food-titile">🍗🔥 Grilled Chicken</h2>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+        <p>Where the fire meets the flavor!</p>
+        <p class="food-price">Price: ₹400</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  </section>
+  <section id="testimonials">
+    <h2 class="testimonial-title">What Our Customers Say</h2>
+    <div class="testimonial-container container">
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750932088/WhatsApp_Image_2025-06-26_at_15.29.19_dfg68p.jpg" alt="" />
+            <p class="customer-name">Umar Khaja</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          "Absolutely loved the Chicken Samosa — crispy outside and bursting with flavor inside! Everything from the Frankies to the mocktails hit the spot. Great vibes and fast service!"
+
+        </p>
+
+      </div>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750932088/WhatsApp_Image_2025-06-26_at_15.29.30_oqbtkt.jpg" alt="" />
+            <p class="customer-name">Satish Reddy</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          "The food was fresh and full of flavor! The Grilled Chicken was smoky and juicy, and the mocktails were refreshing. Will definitely bring my friends here next time!"
+        </p>
+
+      </div>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://res.cloudinary.com/dabxj1smb/image/upload/v1750932087/WhatsApp_Image_2025-06-26_at_15.29.39_hn1weh.jpg" alt="" />
+            <p class="customer-name">Santhosh</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          "Tried their Paneer Tikka Frankie and Wings — both were out of this world! So happy to find a place that delivers quality and taste together."
+        </p>
+
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact-container container">
+      <div class="contact-img">
+        <img decoding="async" src="https://res.cloudinary.com/dabxj1smb/image/upload/v1751291977/ChatGPT_Image_Jun_25_2025_10_29_07_PM_uufhfp.png" alt="" />
+      </div>
+
+      <div class="form-container">
+        <h2>Contact Us</h2>
+
+<form action="#" method="post">
+  <input type="text" placeholder="Your Name" required>
+  <input type="tel" placeholder="Your Phone Number" required>
+  <input type="text" placeholder="Your Address" required>
+  <textarea rows="5" placeholder="Your Message" required></textarea>
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
+    </div>
+  </section>
+  <footer id="footer">
+    <h2>Harisaran &copy; all rights reserved</h2>
+  </footer>
